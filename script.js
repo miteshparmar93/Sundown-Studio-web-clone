@@ -1,9 +1,9 @@
 //import LocomotiveScroll from 'locomotive-scroll';
 
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('.main'),
-//     smooth: true
-// });
+ const scroll = new LocomotiveScroll({
+     el: document.querySelector('.main'),
+     smooth: true
+ });
 
 
 
@@ -31,11 +31,7 @@ e.addEventListener("mouseenter" ,()=>{
 }
 page4animation();
 
-// var elem1 =document.querySelector("#elem1");
-// elem1.addEventListener("mouseenter", ()=>{
-//     var image =elem1.getAttribute("data-image")
-//     fix.style.backgroundImage =`url(${image})`
-// })
+
 
 function swipperanimation(){
     var swiper = new Swiper(".mySwiper", {
