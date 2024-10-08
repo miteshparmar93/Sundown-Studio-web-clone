@@ -41,7 +41,6 @@ html, body{
 }
 .nav{
   padding: 3vw 0vw;
-  /* height: 100px; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -95,7 +94,6 @@ html, body{
 .center{
   height: 70vh;
   width: 100%;
-  /* background-color: aquamarine; */
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -320,12 +318,10 @@ html, body{
 .elem{
   min-height: 150px;
   width: 100%;
-  /* background-color: orange; */
   position: relative;
   display: flex;
   align-items: center;
   padding: 0 2vw;
-  /* border-top: 1px solid black; */
   border-bottom: 1px solid black;
   overflow: hidden;
 
@@ -351,7 +347,6 @@ html, body{
 .fixed-image{
   height: 29vw;
   width: 23vw;
-  /* background-color: red; */
   border-radius: 10px;
   position: fixed;
   z-index: 99;
@@ -372,7 +367,6 @@ html, body{
 .page5{
   height: 100vh;
   width: 100%;
-  /* background-color: #efeae3; */
 }
 
 .footer{
@@ -398,7 +392,6 @@ html, body{
 .footer-div{
   height: 20vh;
   width: 100%;
-  /* background-color: red; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -497,7 +490,6 @@ border-bottom: 1px solid blanchedalmond;
     .center{
       height: 70vh;
       width: 100%;
-      /* background-color: aquamarine; */
       display: flex;
       align-items: flex-end;
       justify-content: space-between;
@@ -639,7 +631,6 @@ border-bottom: 1px solid blanchedalmond;
 .footer-div{
   height: 50vh;
   width: 100%;
-  /* background-color: red; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -712,17 +703,14 @@ border-bottom: 1px solid blanchedalmond;
   animation-timing-function: linear;
 }
 .loader h1:nth-child(2){
-  animation-delay: 2.5s;
- 
+  animation-delay: 2.5s; 
 }
 .loader h1:nth-child(3){
   animation-delay: 3.9s;
- 
 }
 @keyframes load {
   0%{
     opacity: 0;
-
   }
   10%{
     opacity: 1;
@@ -732,6 +720,5 @@ border-bottom: 1px solid blanchedalmond;
   }
   100%{
     opacity: 0;
-
   }
 }
